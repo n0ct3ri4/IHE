@@ -8,7 +8,7 @@
  * 
  * There's a problem : When we press "enter" and have space(s) in the prompt, the program 
  * will execute all terms separately. I don't really know how to fix this issue, and I need
- * this before adding any hacking commands.
+ * to fix this before adding any hacking commands.
  */
 
 #include <iostream>
