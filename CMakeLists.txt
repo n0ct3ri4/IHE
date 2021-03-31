@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.6)
+project(ihe)
+add_subdirectory(JS)
+add_subdirectory(.vscode)
+add_executable(ihe Main.cpp)
