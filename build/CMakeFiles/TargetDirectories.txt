@@ -1,0 +1,7 @@
+/media/n0ct3ri4/STORAGE/Workspace/C++/IHE/build/CMakeFiles/rebuild_cache.dir
+/media/n0ct3ri4/STORAGE/Workspace/C++/IHE/build/CMakeFiles/edit_cache.dir
+/media/n0ct3ri4/STORAGE/Workspace/C++/IHE/build/CMakeFiles/ihe.dir
+/media/n0ct3ri4/STORAGE/Workspace/C++/IHE/build/JS/CMakeFiles/rebuild_cache.dir
+/media/n0ct3ri4/STORAGE/Workspace/C++/IHE/build/JS/CMakeFiles/edit_cache.dir
+/media/n0ct3ri4/STORAGE/Workspace/C++/IHE/build/.vscode/CMakeFiles/rebuild_cache.dir
+/media/n0ct3ri4/STORAGE/Workspace/C++/IHE/build/.vscode/CMakeFiles/edit_cache.dir
