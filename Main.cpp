@@ -64,9 +64,27 @@ void log(string message) {
   cout << message << endl;
 }
 
-int main() {
-  // Main menu...
+void prompt() {
+  string _;
+  cout << "\033[0;33mroot\033[0;37m@\033[0;33mhackstation\033[0;34m$\033[0m ";
+  getline(cin, _);
 
+  // #region
+
+  if (_ == "/help") {
+    log("GitHub : https://github.com/n0ct3ri4/NocturneConsole");
+  }
+  else
+  {
+    system(("node ./JS/shell.js " + _).c_str());
+  }
+
+  // #endregion
+
+  prompt();
+}
+
+int main() {
   log("\033[1;34m   ██╗   ██╗  ██╗   ███████╗      \033[0m");
   log("\033[1;34m   ██║   ██║  ██║   ██╔════╝      \033[0m");
   log("\033[1;34m   ██║   ███████║   █████╗        \033[0m");
@@ -79,13 +97,5 @@ int main() {
   log("Type /help to see the docs...");
   br();
 
-  cmd:
-    string _;
-    cout << "\033[0;33mroot\033[0;37m@\033[0;33mworker000\033[0;34m$\033[0m ";
-    cin >> _;
-    br();
-    system(("node ./JS/shell.js " + _).c_str());
-    goto cmd;
-
-  #pragma endregion
+  prompt();
 }
